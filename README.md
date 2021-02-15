@@ -132,13 +132,13 @@ docker-compose exec app rm -rf blog
 docker-compose exec app composer install
 ```
 
-``` console
-docker-compose exec app php artisan key:generate
-```
-
 ユーザーの権限だと Nginx が一時ファイルを書き出せず Laravel が止まる
 
 そのため、一時ファイル保管にかかわる権限を permission 757 に変更する
+
+``` console
+docker-compose exec app sh
+```
 
 ``` console
 chmod 757 bootstrap/cache
