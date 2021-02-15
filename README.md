@@ -151,7 +151,7 @@ chmod 757 storage/logs
 
 「http://localhost」で Welcome 画面が表示されれば、環境の構築が成功となる
 
-## HerokuにDeploy
+## Heroku に Deploy
 
 ### Heroku 側の Nginx の準備
 
